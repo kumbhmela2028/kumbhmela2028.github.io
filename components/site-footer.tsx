@@ -75,7 +75,8 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-8 border-t border-white/10 pt-6 text-center text-xs text-white/50">
-          © 2028 Simhastha Kumbh Ujjain. All Rights Reserved. Designed and developed by{" "}
+        © 2026 Simhastha Kumbh Ujjain. All Rights Reserved.
+          {/* © 2028 Simhastha Kumbh Ujjain. All Rights Reserved. Designed and developed by{" "}
           <a
             href="https://www.linkedin.com/in/tanishqrawat17/"
             target="_blank"
@@ -84,7 +85,7 @@ export function SiteFooter() {
           >
             Tanishq Rawat
           </a>
-          .
+          . */}
         </div>
       </div>
     </footer>

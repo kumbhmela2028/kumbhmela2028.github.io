@@ -1,0 +1,4 @@
+node_modules/
+.next/
+out/
+client_secret_*.json

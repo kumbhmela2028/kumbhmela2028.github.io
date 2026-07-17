@@ -1,10 +1,16 @@
 import { TempleSilhouette } from "@/components/decorations"
 
 const footerLinks = [
-  { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Updates", href: "#newsletter" },
-  { label: "Contact", href: "#newsletter" },
+  { label: "Home", href: "/" },
+  { label: "About Kumbh Mela", href: "/about-kumbh-mela-2028" },
+  { label: "Ujjain Travel Guide", href: "/ujjain-travel-guide" },
+  { label: "How to Reach Ujjain", href: "/how-to-reach-ujjain" },
+  { label: "Hotels Near Kumbh Mela", href: "/best-hotels-near-kumbh-mela" },
+  { label: "Mahakaleshwar Temple", href: "/mahakaleshwar-temple-guide" },
+  { label: "History", href: "/kumbh-mela-history" },
+  { label: "FAQ", href: "/faq" },
+  { label: "Blog", href: "/blog" },
+  { label: "Contact", href: "/contact" },
 ]
 
 const socials = [
@@ -27,7 +33,7 @@ export function SiteFooter() {
                 <MandalaMark />
               </span>
               <span className="font-serif text-lg font-bold text-white">
-                Simhastha Kumbh Ujjain 2028
+                Kumbh Mela 2028 Ujjain
               </span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
@@ -37,17 +43,19 @@ export function SiteFooter() {
           </div>
 
           {/* Links */}
-          <nav aria-label="Footer" className="flex flex-col gap-3">
+          <nav aria-label="Footer" className="flex flex-col items-center gap-3 md:items-start">
             <span className="text-xs font-semibold uppercase tracking-widest text-gold">Explore</span>
-            {footerLinks.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="text-sm text-white/70 transition-colors hover:text-white"
-              >
-                {link.label}
-              </a>
-            ))}
+            <div className="grid grid-cols-2 gap-x-6 gap-y-2">
+              {footerLinks.map((link) => (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  className="text-sm text-white/70 transition-colors hover:text-white"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
           </nav>
 
           {/* Socials */}
@@ -75,7 +83,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-8 border-t border-white/10 pt-6 text-center text-xs text-white/50">
-        © 2026 Simhastha Kumbh Ujjain. All Rights Reserved.
+        © 2026 Kumbh Mela 2028 Ujjain. All Rights Reserved.
           {/* © 2028 Simhastha Kumbh Ujjain. All Rights Reserved. Designed and developed by{" "}
           <a
             href="https://www.linkedin.com/in/tanishqrawat17/"

@@ -35,7 +35,7 @@ export function AboutSection() {
           <div className="absolute -bottom-6 -right-4 hidden rounded-2xl border border-border bg-card px-6 py-4 shadow-lg sm:block">
             <p className="font-serif text-2xl font-bold text-primary">2028</p>
             <p className="text-xs font-medium uppercase tracking-widest text-muted-foreground">
-              The Next Simhastha
+              The Next Kumbh Mela
             </p>
           </div>
         </motion.div>
@@ -48,16 +48,16 @@ export function AboutSection() {
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
         >
           <span className="text-sm font-semibold uppercase tracking-widest text-primary">
-            About Simhastha Kumbh
+            About Kumbh Mela 2028
           </span>
           <h2 className="mt-3 text-balance font-serif text-3xl font-bold text-foreground md:text-4xl">
             A timeless confluence of devotion and heritage
           </h2>
           <div className="mt-5 space-y-4 leading-relaxed text-muted-foreground">
             <p>
-              Once every twelve years, the ancient city of Ujjain hosts Simhastha Kumbh — a sacred
-              gathering that draws millions of pilgrims, saints, and seekers to the banks of the holy
-              Shipra River.
+              Once every twelve years, the ancient city of Ujjain hosts Kumbh Mela — known locally
+              as Simhastha — a sacred gathering that draws millions of pilgrims, saints, and
+              seekers to the banks of the holy Shipra River.
             </p>
             <p>
               The ritual bath in the Shipra is believed to cleanse the spirit and mark a moment of

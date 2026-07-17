@@ -36,7 +36,7 @@ export function FeaturesSection() {
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
             The full portal is on its way. Here&apos;s a preview of the resources that will support
-            pilgrims and visitors ahead of Simhastha Kumbh Mela 2028.
+            pilgrims and visitors ahead of Kumbh Mela 2028.
           </p>
         </div>
 

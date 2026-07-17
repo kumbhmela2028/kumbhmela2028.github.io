@@ -39,7 +39,7 @@ export function Countdown({ target = EVENT_DATE }: { target?: Date }) {
     <div
       className="grid grid-cols-4 gap-2 sm:gap-4"
       role="timer"
-      aria-label="Countdown to Simhastha Kumbh Mela Ujjain 2028"
+      aria-label="Countdown to Kumbh Mela 2028 Ujjain"
     >
       {units.map((unit, i) => (
         <motion.div

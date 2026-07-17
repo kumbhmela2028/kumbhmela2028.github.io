@@ -64,7 +64,7 @@ export function SiteHeader() {
           </span>
           <span className="flex flex-col leading-tight">
             <span className="font-serif text-base font-bold text-foreground md:text-lg">
-              Simhastha Kumbh
+              Kumbh Mela
             </span>
             <span className="text-[11px] font-medium uppercase tracking-widest text-primary">
               Ujjain 2028
@@ -87,10 +87,11 @@ export function SiteHeader() {
         <div className="flex items-center gap-2">
           <ThemeToggle />
           <Button
-            asChild
+            render={<a href="#newsletter" />}
+            nativeButton={false}
             className="hidden rounded-full bg-primary text-primary-foreground hover:bg-primary/90 sm:inline-flex"
           >
-            <a href="#newsletter">Notify Me</a>
+            Notify Me
           </Button>
           <Button
             variant="ghost"
@@ -119,12 +120,11 @@ export function SiteHeader() {
               </a>
             ))}
             <Button
-              asChild
+              render={<a href="#newsletter" onClick={() => setOpen(false)} />}
+              nativeButton={false}
               className="mt-2 rounded-full bg-primary text-primary-foreground hover:bg-primary/90"
             >
-              <a href="#newsletter" onClick={() => setOpen(false)}>
-                Notify Me
-              </a>
+              Notify Me
             </Button>
           </div>
         </div>

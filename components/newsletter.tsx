@@ -66,7 +66,7 @@ export function Newsletter() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mt-4 text-pretty leading-relaxed text-white/70"
         >
-          Receive updates about Simhastha Kumbh Mela 2028, travel guidance, announcements, and launch
+          Receive updates about Kumbh Mela 2028, travel guidance, announcements, and launch
           notifications.
         </motion.p>
 
@@ -86,7 +86,7 @@ export function Newsletter() {
               <div>
                 <p className="font-semibold text-white">You&apos;re on the list!</p>
                 <p className="text-sm text-white/70">
-                  Thank you for subscribing. We&apos;ll keep you posted on Simhastha 2028.
+                  Thank you for subscribing. We&apos;ll keep you posted on Kumbh Mela 2028.
                 </p>
               </div>
             </div>

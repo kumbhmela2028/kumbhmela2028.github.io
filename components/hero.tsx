@@ -59,9 +59,9 @@ export function Hero() {
           animate="show"
           className="mt-6 max-w-4xl text-balance font-serif text-4xl font-bold leading-tight text-white drop-shadow-sm sm:text-5xl md:text-6xl lg:text-7xl"
         >
-          Simhastha Kumbh Mela{" "}
+          Kumbh Mela 2028{" "}
           <span className="bg-gradient-to-r from-gold via-primary to-gold bg-clip-text text-transparent">
-            Ujjain 2028
+            Ujjain
           </span>
         </motion.h1>
 
@@ -116,6 +116,7 @@ export function Hero() {
         >
           <Button
             render={<a href="#newsletter" />}
+            nativeButton={false}
             size="lg"
             className="h-12 w-full rounded-full bg-primary px-8 text-base font-semibold text-primary-foreground shadow-lg shadow-primary/30 hover:bg-primary/90 sm:w-auto"
           >
@@ -124,6 +125,7 @@ export function Hero() {
           </Button>
           <Button
             render={<a href="#about" />}
+            nativeButton={false}
             size="lg"
             variant="outline"
             className="h-12 w-full rounded-full border-white/40 bg-white/10 px-8 text-base font-semibold text-white backdrop-blur-sm hover:bg-white/20 hover:text-white sm:w-auto"

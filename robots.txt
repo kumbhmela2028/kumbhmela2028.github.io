@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kumbhmela2028.com
+
+# Sitemaps
+Sitemap: https://kumbhmela2028.com/sitemap.xml
